@@ -11,7 +11,7 @@ class Config:
     models_dir: Path = project_root / "models"
 
     # Dataset file name (keep the CSV local; do not commit it)
-    raw_filename: str = "lendingclub.csv"
+    raw_filename: str = "accepted_2007_to_2018q4.csv"
 
     # Target + split
     target_col: str = "loan_status"
